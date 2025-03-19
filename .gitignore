@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+terraform/bank-terra-key.pub
+terraform/bank-terra-key
+eksctl_Linux_amd64.tar.gz
+kubernetes/README.md

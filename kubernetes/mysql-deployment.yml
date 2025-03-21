@@ -20,6 +20,13 @@ spec:
         image: mysql:8.0  
         ports:
         - containerPort: 3306
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1"
         env:
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
@@ -39,4 +46,3 @@ spec:
       - name: mysql-pv-storage
         persistentVolumeClaim:
           claimName: mysql-pvc
-

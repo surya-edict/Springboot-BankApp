@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: mysql:8.0  # Use a specific, stable version for production
+        image: mysql:8.0  
         ports:
         - containerPort: 3306
         env:
@@ -34,7 +34,7 @@ spec:
         volumeMounts:
         - name: mysql-pv-storage
           mountPath: /var/lib/mysql
-          subPath: mysql-data  # Optional: Ensure a subdirectory is used for better volume organization
+          subPath: mysql-data  
       volumes:
       - name: mysql-pv-storage
         persistentVolumeClaim:

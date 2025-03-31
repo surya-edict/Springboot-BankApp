@@ -2,7 +2,8 @@
 - This is a multi-tier bank an application written in Java (Springboot).
 
 ![Login diagram](images/login.png)
-![Transactions diagram](images/transactions.png)
+![Transactions diagram](![Screenshot 2025-03-31 at 19 14 20](https://github.com/user-attachments/assets/b8dfcd1f-42f6-45e4-81e7-acd058001cc6)
+)
 
 ## Tech stack used in this project:
 - GitHub (Code)

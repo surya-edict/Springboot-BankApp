@@ -212,8 +212,6 @@ chmod 777 /var/run/docker.sock
 ```bash
 <worker-public-ip>:30080
 ```
-- <b>Email Notification</b>
-![image](https://github.com/user-attachments/assets/407f94ed-bf67-441a-bd28-881b6b8739b2)
 
 #
 ## How to monitor EKS cluster, kubernetes components and workloads using prometheus and grafana via HELM (On Master machine)
